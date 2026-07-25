@@ -10,9 +10,8 @@ async function analyzeWebsite() {
     try {
 
         const response = await fetch(
-            `http://localhost:8000/analyze?url=${encodeURIComponent(url)}`
-        );
-
+    https://pagepulse-du14.onrender.com/analyze?url=${encodeURIComponent(url)}
+);
         const data = await response.json();
 
         if (data.error) {
